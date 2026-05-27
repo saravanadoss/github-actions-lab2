@@ -10,7 +10,7 @@ jobs:
         py-version: [3.10.20,3.11,3.12]
         exclude:
           - py-version: 3.10.20
-            os: windows-latest, ubuntu.20.4
+            os: [windows-latest, ubuntu.20.4]
         
 
     runs-on: ${{matrix.os}}
